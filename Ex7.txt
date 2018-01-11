@@ -1,0 +1,3 @@
+> db.CATALOG.find({ 
+	"CD.YEAR":{$gt:1983}  
+}).pretty()
